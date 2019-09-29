@@ -14,15 +14,15 @@ b=NUM2
 c=NUM3
 
 print("otra solucion")
-if a !=b and a !=c and b !=c:
+if a !=b and a !=c and  b !=c:
     print(a,"es el mayor")
-    else:
-        if b>a and b>C:
-            print(b,"es el mayor")
-        else:
-            print(c,"es el mayor")
+else:
+     if b>a and b>c:
+     print(f"{b} es el mayor")
+     else:
+     print(c,"es el mayor")
 print("lo mismo pero simflificado:")
-if a !=b and a !=c and b !=c:
+if a !=b or a !=c or b !=c:
         if a>b and a>C:
             print(a,"es el mayor")
         elif b>a amd b>c:
